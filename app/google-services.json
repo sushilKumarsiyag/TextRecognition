@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "239915390220",
+    "firebase_url": "https://text-recognisition.firebaseio.com",
+    "project_id": "text-recognisition",
+    "storage_bucket": "text-recognisition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239915390220:android:8e143fbaad25249a5d2529",
+        "android_client_info": {
+          "package_name": "com.sana.os.textrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239915390220-1hj4fk3g17tg83p7m0cmlpqbqrlguqic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTbvPRzX3MCGKVO1Oej7FxP2Q8gdrwI2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239915390220-1hj4fk3g17tg83p7m0cmlpqbqrlguqic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

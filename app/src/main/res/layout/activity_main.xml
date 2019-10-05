@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="match_parent"
+        android:layout_below="@id/image_view"
+        android:textSize="20sp"
+        android:maxLines="10"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/captureimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capature Image"
+        android:textAllCaps="true"
+        android:layout_above="@+id/detecttextimage"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/detecttextimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect Text"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        />
+</RelativeLayout>
